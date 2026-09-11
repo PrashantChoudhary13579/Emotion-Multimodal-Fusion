@@ -1,0 +1,28 @@
+# CPU-only setup — much smaller download (~200MB vs 2-3GB for CUDA builds),
+# so this is the fastest option if you don't have an NVIDIA GPU, or just
+# want to get evaluation running first and worry about speed later.
+# Use with: conda env create -f environment-cpu.yml   (or mamba, much faster solver)
+name: samvedna_testing
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - ffmpeg
+  - pytorch>=2.6
+  - torchvision
+  - cpuonly
+  - pip:
+      - transformers>=4.49.0
+      - huggingface_hub>=0.27.0
+      - accelerate>=0.34.0
+      - librosa>=0.10.1
+      - soundfile>=0.12.1
+      - moviepy>=2.2.1
+      - numpy>=1.26.0
+      - pandas>=2.2.0
+      - scikit-learn>=1.5.0
+      - matplotlib>=3.9.0
+      - seaborn>=0.13.0
+      - tqdm>=4.66.0

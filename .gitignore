@@ -1,0 +1,27 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data / large artifacts (uncomment / adjust as needed)
+# *.pt
+# *.wav
+# *.mp4
+cache/
+*.cache/
+
+# Logs
+*.log

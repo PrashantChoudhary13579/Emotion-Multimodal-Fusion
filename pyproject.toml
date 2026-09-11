@@ -1,0 +1,14 @@
+[MER]
+name = "MER"
+version = "0.1.0"
+description = "Multi_modal_emotion"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "moviepy>=2.2.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+]
