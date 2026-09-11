@@ -154,8 +154,8 @@ This project was evaluated on:
 
 - **[RAVDESS](https://zenodo.org/record/1188976)** — Ryerson Audio-Visual Database of Emotional Speech and Song
 - **[eNTERFACE'05](https://enterface.net/results/)** — audio-visual emotion database
-- **Samvedna** — custom/internal dataset
-- **Pumave** — mixed/combined dataset built from the above
+- **SAMVEDNA** — Our own Multilingual Dataset consisting of English, Hindi and Punjabi
+- **PUMAVE-D** — Punjab University Multilingual Audio and Video facial Expression Dataset
 
 Datasets themselves are not included in this repository — point the scripts at your local copies via `--audio_root` / `--video_root`.
 
